@@ -9,6 +9,11 @@ class Customer{
     public get getCustAge(){
         return this.custAge;
     }
+
+    public set setCustAge(age: number)
+    {
+        this.custAge=age;
+    }
 }
 
 let virat= new Customer(10);
